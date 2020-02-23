@@ -55,15 +55,10 @@ public class TestListener implements ITestListener {
         System.out.println("onTestFailure method " + getTestMethodName(iTestResult) + " failed");
         logger.info("onTestFailure method " + getTestMethodName(iTestResult) + " failed");
 
-        //Get driver from BaseTest and assign to local webDriver variable.
+
         Object testClass = iTestResult.getInstance();
-        //WebDriver webDriver = ((BaseTest) testClass).getDriver();
 
-        //Take base64Screenshot screenshot.
-        //String base64Screenshot = "data:image/png;base64," + ((TakesScreenshot) webDriver).
-            //getScreenshotAs(OutputType.BASE64);
 
-        //ExtentReports log and screenshot operations for failed tests.
         ExtentTestManager.getTest().log(LogStatus.FAIL, "Test Failed");
     }
 
