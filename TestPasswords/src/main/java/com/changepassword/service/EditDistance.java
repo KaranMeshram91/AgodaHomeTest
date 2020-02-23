@@ -1,6 +1,14 @@
 package com.changepassword.service;
 
+
 public class EditDistance {
+    /**
+     * Returns the min of the 3 given integers
+     * @param x
+     * @param y
+     * @param z
+     * @return
+     */
     static int min(int x, int y, int z)
     {
         if (x <= y && x <= z)
@@ -11,6 +19,14 @@ public class EditDistance {
             return z;
     }
 
+    /**
+     * Edit distance calculator based on Dynamic programming
+     * @param str1 - Old password
+     * @param str2 - New password
+     * @param m - Length of old password
+     * @param n - Length of new password
+     * @return
+     */
     static int editDistDP(String str1, String str2, int m, int n)
     {
         // Create a table to store results of subproblems
