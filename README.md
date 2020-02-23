@@ -8,7 +8,7 @@
 - PasswordChanger - This has the core logic for password validations as per the requirement
 
 3) I have used log4j for logging purpose
-The log4j xml is provided in the resources folder - log4j2.xml
+-The log4j xml is provided in the resources folder - log4j2.xml
 
 In the log4j2.xml , fileName should be updated by user as per system {path to the logger}/change-password.log
 ```bash
