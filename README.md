@@ -46,7 +46,7 @@ This is used by data providers
 10) We have used maven build tools for fetching external dependencies under pom.xml file
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Steps to run from IDE :
+# Steps to run from IDE :
 1) git clone the project'
 2) Open the TestPasswords project in IntelliJ IDE
 3) Open the TestNG.xml file
@@ -54,13 +54,13 @@ This is used by data providers
 
 This will execute all the test cases automated in ChangePasswordTest class under package tests.ChangePasswordTest
 
-#To run individual test cases
+# To run individual test cases
 1) go to ChangePasswordTest class under package tests.ChangePasswordTest
 2) right click on the test method you wish to execute that has @Test annotation
 3) Click run for that test method name
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Steps to add a new Automated test case
+# Steps to add a new Automated test case
 1) go to ChangePasswordTest class under package tests.ChangePasswordTest
 2) At the end of the file
 add
@@ -73,7 +73,7 @@ add
     }
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Following 65 Test cases have been Automated
+# Following 65 Test cases have been Automated
 
 1. null sent as new password - Negative
 2. blank new password - Negative
