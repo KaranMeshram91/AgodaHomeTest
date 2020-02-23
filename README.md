@@ -11,6 +11,22 @@ B) PasswordChanger - This has the core logic for password validations as per the
 The log4j xml is provided in the resources folder - log4j2.xml
 
 In the log4j2.xml , fileName should be updated by user as per system {path to the logger}/change-password.log
+```bash
+<Appenders>
+        <!-- below fileName should be updated by user as per system <path to the logger>/change-password.log  -->
+        <RollingFile name="LogToRollingFile" fileName="/Users/karan.meshram/AgodaHomeTest/AgodaHomeTest/TestPasswords/logs/change-password.log"
+                     filePattern="/Users/karan.meshram/AgodaHomeTest/AgodaHomeTest/TestPasswords/logs/$${date:yyyy-MM}/change-password-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.}.%M [%t] %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+```
+
 This is the location where the framework log file will be generated apart from console logging
 
 4) I have kept console logging for simple debugging which can be removed as we centralized logger as metioned in #4.
@@ -64,6 +80,16 @@ This will execute all the test cases automated in ChangePasswordTest class under
 1) go to ChangePasswordTest class under package tests.ChangePasswordTest
 2) At the end of the file
 add
+
+```java
+@Test(priority = 0, description = {give a suitable test description}")
+    public void testCaseMethodName(Method method) {
+        //ExtentReports Description
+        ExtentTestManager.startTest(method.getName(), "{give a suitable test description}");
+        Assert.assertEquals(PasswordChanger.changePassword("<{give old password}", "{give new password}"),{give boolen aasertion : true/false});
+    }
+
+```
 
 @Test(priority = 0, description = {give a suitable test description}")
     public void testCaseMethodName(Method method) {
