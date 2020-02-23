@@ -162,4 +162,5 @@ add
 63. SQL injection Commands as new password - Data provider used
 64. New password contains dangerous Linux commands - Data provider used
 65. New password contains cross site scripting commands - Data provider used
-
+66. Base64EncodedStringAsNewPassword
+67. JWTTokenAsNewPassword
