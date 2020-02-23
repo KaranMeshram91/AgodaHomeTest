@@ -486,6 +486,21 @@ public class ChangePasswordTest {
         Assert.assertEquals(PasswordChanger.changePassword("hKKaab9868666!@#", "ℹ️⌛️⚠️✒️❤️\uD83C\uDC04️\uD83C\uDE1A️ℹ️⌛️⚠️✒️❤️\uD83C\uDC04️\uD83C\uDE1A️ℹ️⌛️⚠️✒️❤️\uD83C\uDC04️\uD83C\uDE1A️ℹ️⌛️⚠️✒️❤️\uD83C\uDC04️\uD83C\uDE1A️️"),false);
     }
 
+    @Test(priority = 0, description = "New password contains base64 encoded string of a valid password")
+    public void Base64EncodedStringAsNewPassword(Method method) {
+        //ExtentReports Description
+        ExtentTestManager.startTest(method.getName(), "New password has unicode characters");
+        Assert.assertEquals(PasswordChanger.changePassword("hKKaab9868666!@#", "aEtLYWFiOTg2ODY2NiFAIw=="),false);
+    }
+
+    //eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+    @Test(priority = 0, description = "JWT token sent as new password")
+    public void JWTTokenAsNewPassword(Method method) {
+        //ExtentReports Description
+        ExtentTestManager.startTest(method.getName(), "JWT token sent as new password");
+        Assert.assertEquals(PasswordChanger.changePassword("hKKaab9868666!@#", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"),false);
+    }
+
     @DataProvider(name = "sqlInjectionData")
     public Iterator<Object> sqlInjectionData() throws IOException {
         CSVDataProvider csvDataProvider = new CSVDataProvider();
@@ -532,19 +547,6 @@ public class ChangePasswordTest {
     }
 
 
-    @Test(priority = 0, description = "New password contains base64 encoded string of a valid password")
-    public void Base64EncodedStringAsNewPassword(Method method) {
-        //ExtentReports Description
-        ExtentTestManager.startTest(method.getName(), "New password has unicode characters");
-        Assert.assertEquals(PasswordChanger.changePassword("hKKaab9868666!@#", "aEtLYWFiOTg2ODY2NiFAIw=="),false);
-    }
 
-    //eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
-    @Test(priority = 0, description = "JWT token sent as new password")
-    public void JWTTokenAsNewPassword(Method method) {
-        //ExtentReports Description
-        ExtentTestManager.startTest(method.getName(), "JWT token sent as new password");
-        Assert.assertEquals(PasswordChanger.changePassword("hKKaab9868666!@#", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"),false);
-    }
 
 }
