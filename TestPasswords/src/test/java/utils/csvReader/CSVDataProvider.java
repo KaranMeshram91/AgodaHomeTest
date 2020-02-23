@@ -6,6 +6,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
+/**
+ * This method is created as a Data provider to read new passwords from CSV files for data driven Testing of a test case with multiple test samples
+ */
 public class CSVDataProvider {
     public Iterator<Object> parseCsvData(String fileName) throws IOException {
         BufferedReader input = null;
