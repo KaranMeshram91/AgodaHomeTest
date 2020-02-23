@@ -8,7 +8,6 @@
     <test name="Change Password Test">
         <classes>
             <class name="tests.ChangePasswordTest"/>
-            <!--<class name="tests.ChangePasswordTestDataProviderCSV"/>-->
         </classes>
     </test>
 </suite>
