@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e26614b4-7501-4c1c-92d1-3831a3f76dfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReportResults.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/change-password.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/change-password.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ChangePasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ChangePasswordTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/karan.meshram/Automation/TestPasswords/TestNG.xml">
-    <configuration name="ChangePasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChangePasswordTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestPasswords" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangePasswordTest.newPasswordHasEmojiCharacter" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChangePasswordTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestPasswords" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +76,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ChangePasswordTest" />
-      <option name="METHOD_NAME" value="newPasswordHasEmojiCharacter" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangePasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestPasswords" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ChangePasswordTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -102,24 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangePasswordTest.oldPasswordDoesntMatchWithSystem" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestPasswords" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ChangePasswordTest" />
-      <option name="METHOD_NAME" value="oldPasswordDoesntMatchWithSystem" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/karan.meshram/Automation/TestPasswords/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestPasswords" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -133,10 +131,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/karan.meshram/Automation/TestPasswords/TestNG.xml" />
+        <item itemvalue="TestNG.ChangePasswordTest (2)" />
+        <item itemvalue="TestNG.ChangePasswordTest (1)" />
         <item itemvalue="TestNG.ChangePasswordTest" />
         <item itemvalue="TestNG.ChangePasswordTest.nullAsNewPassword" />
-        <item itemvalue="TestNG.ChangePasswordTest.oldPasswordDoesntMatchWithSystem" />
-        <item itemvalue="TestNG.ChangePasswordTest.newPasswordHasEmojiCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +168,7 @@
       <workItem from="1582398878984" duration="525000" />
       <workItem from="1582399425348" duration="19000" />
       <workItem from="1582434632520" duration="3797000" />
-      <workItem from="1582444567126" duration="6422000" />
+      <workItem from="1582444567126" duration="7149000" />
     </task>
     <servers />
   </component>
@@ -191,34 +189,50 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="578" y="258" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.962@0.23.1680.962" timestamp="1582293236566" />
-    <state width="1638" height="255" key="GridCell.Tab.0.bottom" timestamp="1582451461297">
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom" timestamp="1582453017143">
       <screen x="0" y="23" width="1680" height="958" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1582451461297" />
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1582453017143" />
     <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1582371305214" />
     <state width="1638" height="258" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1582296790759" />
     <state width="1878" height="289" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1582297144744" />
-    <state width="1638" height="255" key="GridCell.Tab.0.center" timestamp="1582451461296">
+    <state width="1638" height="255" key="GridCell.Tab.0.center" timestamp="1582453017142">
       <screen x="0" y="23" width="1680" height="958" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1582451461296" />
+    <state width="1638" height="255" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1582453017142" />
     <state width="1638" height="257" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1582371305213" />
     <state width="1638" height="258" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1582296790758" />
     <state width="1878" height="289" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1582297144744" />
-    <state width="1638" height="255" key="GridCell.Tab.0.left" timestamp="1582451461295">
+    <state width="1638" height="255" key="GridCell.Tab.0.left" timestamp="1582453017141">
       <screen x="0" y="23" width="1680" height="958" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1582451461295" />
+    <state width="1638" height="255" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1582453017141" />
     <state width="1638" height="257" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1582371305213" />
     <state width="1638" height="258" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1582296790758" />
     <state width="1878" height="289" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1582297144743" />
-    <state width="1638" height="255" key="GridCell.Tab.0.right" timestamp="1582451461296">
+    <state width="1638" height="255" key="GridCell.Tab.0.right" timestamp="1582453017142">
       <screen x="0" y="23" width="1680" height="958" />
     </state>
-    <state width="1638" height="255" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1582451461296" />
+    <state width="1638" height="255" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1582453017142" />
     <state width="1638" height="257" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1582371305214" />
     <state width="1638" height="258" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.962@0.23.1680.962" timestamp="1582296790759" />
     <state width="1878" height="289" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1582297144744" />
+    <state width="1638" height="318" key="GridCell.Tab.1.bottom" timestamp="1582453001826">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.bottom/0.23.1680.958@0.23.1680.958" timestamp="1582453001826" />
+    <state width="1638" height="318" key="GridCell.Tab.1.center" timestamp="1582453001825">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.center/0.23.1680.958@0.23.1680.958" timestamp="1582453001825" />
+    <state width="1638" height="318" key="GridCell.Tab.1.left" timestamp="1582453001824">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.left/0.23.1680.958@0.23.1680.958" timestamp="1582453001824" />
+    <state width="1638" height="318" key="GridCell.Tab.1.right" timestamp="1582453001825">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.right/0.23.1680.958@0.23.1680.958" timestamp="1582453001825" />
     <state x="378" y="166" key="Maven.ArtifactSearchDialog" timestamp="1582371366124">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
