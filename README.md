@@ -46,7 +46,7 @@ To support Extent reporting we have added some util classes under ```utils.Exten
 - ```ExtentManager.java``` class - here you can define the location where the report html should be generaterd
 - ```ExtentTestManager.java``` class 
 
-7) ```Testlistner``` class under Listners Package is used by TestNG to print the start,End and other activites of test cases whenever an automated test runs
+7) ```Testlistner.java``` class under Listners Package is used by TestNG to print the start,End and other activites of test cases whenever an automated test runs
 
 8) Data driven test cases are also supported using **Data Providers** in TestNG
 - This will help to read list of new passwords from CSV file 
