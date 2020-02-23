@@ -1,6 +1,6 @@
 <Configuration status="DEBUG">
     <Appenders>
-
+        <!-- below fileName should be updated by user as per system <path to the logger>/change-password.log  -->
         <RollingFile name="LogToRollingFile" fileName="/Users/karan.meshram/Automation/TestPasswords/logs/change-password.log"
                      filePattern="/Users/karan.meshram/Automation/TestPasswords/logs/$${date:yyyy-MM}/change-password-%d{MM-dd-yyyy}-%i.log.gz">
             <PatternLayout>
