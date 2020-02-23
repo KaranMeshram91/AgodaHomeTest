@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.665" tests="84" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/karan.meshram/Automation/TestPasswords/target/test-classes:/Users/karan.meshram/Automation/TestPasswords/target/classes:/Users/karan.meshram/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/karan.meshram/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/karan.meshram/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/karan.meshram/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/karan.meshram/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/karan.meshram/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/karan.meshram/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/karan.meshram/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/karan.meshram/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/karan.meshram/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/karan.meshram/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:/Users/karan.meshram/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/karan.meshram/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/karan.meshram/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/karan.meshram/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/Users/karan.meshram/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/Users/karan.meshram/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/karan.meshram/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/karan.meshram/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/karan.meshram/Automation/TestPasswords/target/surefire/surefirebooter2062280987822589740.jar /Users/karan.meshram/Automation/TestPasswords/target/surefire 2020-02-23T12-55-38_961-jvmRun1 surefire3171317838790896437tmp surefire_09180141277018438659tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/karan.meshram/Automation/TestPasswords/target/test-classes:/Users/karan.meshram/Automation/TestPasswords/target/classes:/Users/karan.meshram/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/karan.meshram/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/karan.meshram/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/karan.meshram/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/karan.meshram/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/karan.meshram/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/karan.meshram/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/karan.meshram/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/karan.meshram/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/karan.meshram/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/karan.meshram/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:/Users/karan.meshram/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/karan.meshram/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/karan.meshram/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/karan.meshram/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/Users/karan.meshram/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/Users/karan.meshram/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/karan.meshram/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/karan.meshram/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/karan.meshram"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/karan.meshram/Automation/TestPasswords"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/karan.meshram/Automation/TestPasswords/target/surefire/surefirebooter2062280987822589740.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="karan.meshram"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/karan.meshram/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/zv/4klvs5zx0px9nbjhxmkwjd41zck_gg/T/"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="/Users/karan.meshram/Automation/TestPasswords"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/karan.meshram/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="/Users/karan.meshram/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="CrossSiteScriptingAsNewPassword" classname="tests.ChangePasswordTest" time="0.08"/>
+  <testcase name="CrossSiteScriptingAsNewPassword" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="CrossSiteScriptingAsNewPassword" classname="tests.ChangePasswordTest" time="0.004"/>
+  <testcase name="CrossSiteScriptingAsNewPassword" classname="tests.ChangePasswordTest" time="0.026"/>
+  <testcase name="CrossSiteScriptingAsNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="CrossSiteScriptingAsNewPassword" classname="tests.ChangePasswordTest" time="0.002"/>
+  <testcase name="DangerousLinuxCommandsAsNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="DangerousLinuxCommandsAsNewPassword" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="DangerousLinuxCommandsAsNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="DangerousLinuxCommandsAsNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="DangerousLinuxCommandsAsNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="DangerousLinuxCommandsAsNewPassword" classname="tests.ChangePasswordTest" time="0.049"/>
+  <testcase name="SQLInjectionAsNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="SQLInjectionAsNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="SQLInjectionAsNewPassword" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="SQLInjectionAsNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="SQLInjectionAsNewPassword" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="SQLInjectionAsNewPassword" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="SQLInjectionAsNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="blankNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="escapeSequenceInBetweenNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="leadingSpacesInNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPassword100PercentMatchWithOldPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPassword80PercentMatchWithOldPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPassword85PercentMatchWithOldPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPassword90PercentMatchWithOldPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPassword95PercentMatchWithOldPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordEqualTo18" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordGreaterThan18" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordHasEmojiCharacter" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordHasRegex1" classname="tests.ChangePasswordTest" time="0.002"/>
+  <testcase name="newPasswordHasRegex2" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordHasRegexOfTestCondition1" classname="tests.ChangePasswordTest" time="0.096"/>
+  <testcase name="newPasswordHasUnicodeCharacter" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordHasUnusualCharacter" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordLessPalindromeOfOldPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordLessThan18" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordLessThan80PercentMatchWithOldPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordSameAsOldPasswordWithUpperChangeToLowerAndSimilar" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithAllowedSpecialCharacterRepeatedEqualToFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithAllowedSpecialCharacterRepeatedGreaterThanFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithAllowedSpecialCharacterRepeatedLessThanFourTimes" classname="tests.ChangePasswordTest" time="0.002"/>
+  <testcase name="newPasswordWithAllowedSpecialCharactersEqualToFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithAllowedSpecialCharactersGreaterThanFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithAllowedSpecialCharactersLessThanFourTimes" classname="tests.ChangePasswordTest" time="0.005"/>
+  <testcase name="newPasswordWithDigitRepeatedEqualToFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithDigitRepeatedGreaterThanFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithDigitRepeatedLessThanFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithDigitsEqualToFiftyPercentTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithDigitsGreaterThanFiftyPercentTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithDigitsLessThanFiftyPercentTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithLowerCaseRepeatedEqualToFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithLowerCaseRepeatedGreaterThanFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithLowerCaseRepeatedLessThanFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithOnlyAllowedSpecialCharacters" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithOnlyDigit" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="newPasswordWithOnlyDigitAndAllowedSpecialCharacters" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="newPasswordWithOnlyLowerCaseCharacters" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="newPasswordWithOnlyLowerCaseCharactersAndAllowedSpecialCharacters" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithOnlyLowerCaseCharactersAndDigits" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithOnlyLowerCaseCharactersDigitsAndAllowedSpecialCharacters" classname="tests.ChangePasswordTest" time="0.034"/>
+  <testcase name="newPasswordWithOnlyUnallowedSpecialCharacters" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="newPasswordWithOnlyUpperAndLowerCaseCharacters" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="newPasswordWithOnlyUpperCaseCharacters" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="newPasswordWithOnlyUpperCaseCharactersAndAllowedSpecialCharacters" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithOnlyUpperCaseCharactersAndDigits" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="newPasswordWithOnlyUpperCaseCharactersDigitsAndAllowedSpecialCharacters" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithOnlyUpperCaseLowerCaseCharactersAndDigits" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithUpperCaseLowerCaseCharactersDigitsAndAllowedSpecialCharacters" classname="tests.ChangePasswordTest" time="0.002"/>
+  <testcase name="newPasswordWithUpperCaseRepeatedEqualToFourTimes" classname="tests.ChangePasswordTest" time="0.002"/>
+  <testcase name="newPasswordWithUpperCaseRepeatedGreaterThanFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="newPasswordWithUpperCaseRepeatedLessThanFourTimes" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="nullAsNewPassword" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="oldPasswordDoesntMatchWithSystem" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="oldPasswordEmpty" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="oldPasswordnull" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="onlySpacesInNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="spacesInBetweenNewPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="trailingSpacesInNewPassword" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="validNewPasswordReverseOfCorrectOldPassword" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="validNewPasswordStartsWithAllowedSpecialCharacter" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="validNewPasswordStartsWithDigit" classname="tests.ChangePasswordTest" time="0"/>
+  <testcase name="validNewPasswordStartsWithLowerCase" classname="tests.ChangePasswordTest" time="0.001"/>
+  <testcase name="validNewPasswordStartsWithUpperCase" classname="tests.ChangePasswordTest" time="0.001"/>
+</testsuite>

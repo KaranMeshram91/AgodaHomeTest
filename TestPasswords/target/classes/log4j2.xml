@@ -1,0 +1,26 @@
+<Configuration status="DEBUG">
+    <Appenders>
+
+        <RollingFile name="LogToRollingFile" fileName="/Users/karan.meshram/Automation/TestPasswords/logs/change-password.log"
+                     filePattern="/Users/karan.meshram/Automation/TestPasswords/logs/$${date:yyyy-MM}/change-password-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.}.%M [%t] %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- avoid duplicated logs with additivity=false -->
+        <Logger name="com.changepassword" level="debug" additivity="false">
+            <AppenderRef ref="LogToRollingFile"/>
+        </Logger>
+        <Logger name="utils.Listeners" level="debug" additivity="false">
+            <AppenderRef ref="LogToRollingFile"/>
+        </Logger>
+
+    </Loggers>
+</Configuration>

