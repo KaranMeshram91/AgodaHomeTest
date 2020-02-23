@@ -4,8 +4,8 @@
 
 2) There are two main classes for changePassword functionlity under com.changepassword.service package where the core business logic is written
 
-A) EditDistance - to find the match in between old and new password
-B) PasswordChanger - This has the core logic for password validations as per the requirement
+> EditDistance - to find the match in between old and new password
+> PasswordChanger - This has the core logic for password validations as per the requirement
 
 3) I have used log4j for logging purpose
 The log4j xml is provided in the resources folder - log4j2.xml
