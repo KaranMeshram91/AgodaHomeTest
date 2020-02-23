@@ -18,13 +18,7 @@ import java.net.MalformedURLException;
 import java.util.Iterator;
 
 public class ChangePasswordTest {
-    private static Logger LOGGER = null;
-    @BeforeClass
-    public static void setLogger() throws MalformedURLException
-    {
-        System.setProperty("log4j.configurationFile","log4j2.xml");
-        LOGGER = LogManager.getLogger();
-    }
+
 
     @BeforeTest
     public void doBeforeTest() {
