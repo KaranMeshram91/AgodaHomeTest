@@ -5,7 +5,8 @@ import com.relevantcodes.extentreports.ExtentTest;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
+/**  Integrating Extent reports for html based reporting of the test status
+ * 
  * OB: extentTestMap holds the information of thread ids and ExtentTest instances.
  * ExtentReports instance created by calling getReporter() method from ExtentManager.
  * At startTest() method, an instance of ExtentTest created and put into extentTestMap with current thread id.
