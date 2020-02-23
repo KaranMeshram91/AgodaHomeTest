@@ -10,7 +10,7 @@
 3) I have used log4j for logging purpose
 The log4j xml is provided in the resources folder - log4j2.xml
 
-In the log4j2.xml , fileName should be updated by user as per system <path to the logger>/change-password.log
+In the log4j2.xml , fileName should be updated by user as per system {path to the logger}/change-password.log
 This is the location where the framework log file will be generated apart from console logging
 
 4) I have kept console logging for simple debugging which can be removed as we centralized logger as metioned in #4.
@@ -65,11 +65,11 @@ This will execute all the test cases automated in ChangePasswordTest class under
 2) At the end of the file
 add
 
-@Test(priority = 0, description = <give a suitable test description>")
+@Test(priority = 0, description = {give a suitable test description}")
     public void testCaseMethodName(Method method) {
         //ExtentReports Description
-        ExtentTestManager.startTest(method.getName(), "<give a suitable test description>");
-        Assert.assertEquals(PasswordChanger.changePassword("<give old password>", "<give new password>"),<give boolen aasertion : true/false>);
+        ExtentTestManager.startTest(method.getName(), "{give a suitable test description}");
+        Assert.assertEquals(PasswordChanger.changePassword("<{give old password}", "{give new password}"),{give boolen aasertion : true/false});
     }
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
