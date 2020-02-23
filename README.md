@@ -97,8 +97,8 @@ add
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Following 65 Test cases have been Automated
 
-1. null sent as new password - Negative
-2. blank new password - Negative
+1. null sent as new password 
+2. blank new password 
 3. only spaces in new password   
 4. Leading spaces in new password
 5. Trailing spaces in new password
@@ -159,6 +159,89 @@ add
 60. Old Password null
 61. Old Password empty
 62. New password has emoji characters - ℹ️⌛️⚠️✒️❤️🀄️🈚️ℹ️⌛️⚠️✒️❤️🀄️🈚️ℹ️⌛️⚠️✒️❤️🀄️🈚️ℹ️⌛️⚠️✒️❤️🀄️🈚️
+63. SQL injection Commands as new password - Data provider used
+64. New password contains dangerous Linux commands - Data provider used
+65. New password contains cross site scripting commands - Data provider used
+66. Base64EncodedStringAsNewPassword
+67. JWTTokenAsNewPassword
+
+
+
+## Positive Test Scenarios
+
+1. Valid new password starts with a lower case character
+2. Valid new password starts with a upper case character   
+3. Valid new password starts with a digit
+4. Valid new password starts with an allowed special character 
+5. Valid new password which is Reverse of correct Old password
+6. New password same as Old password but all upper change to lower change and vice versa
+7. New password with >18 characters 
+8. New password with =18 characters
+9. New password with upper case characters, lower case characters, Digits and allowed special characters
+10. New password with upper case characters Repeated <4 times
+11. New password with upper case characters Repeated =4 times
+12. New password with lower case characters Repeated <4 times
+13. New password with lower case characters Repeated =4 times
+14. New password with digit Repeated <4 times
+15. New password with digit Repeated =4 times
+16. New password with allowed special character Repeated <4 times
+17. New password with allowed special character Repeated =4 times
+18. New password with digits <50% times
+19. New password and old password <80% match
+20. New password palindrome of old password
+
+
+## Negative Test Scenarios
+
+21. null sent as new password 
+22. blank new password 
+23. only spaces in new password   
+24. Leading spaces in new password
+25. Trailing spaces in new password
+26. Spaces in between new password"
+27. Escape sequence in between new password 
+28. New password with only un allowed special characters
+29. New password with <18 characters
+30. New password with only allowed special characters
+31. New password with only digit and allowed special characters
+32. New password with only digit
+33. New password with only lower case characters
+34. New password with only lower case characters and Allowed special characters
+35. New password with only lower case characters and digits  
+36. New password with only lower case characters, digits and allowed special characters
+37. New password with only upper case characters
+38. New password with only upper case characters and Allowed special characters
+39. New password with only upper case characters and digits
+40. New password with only upper case characters, digits and allowed special characters
+41. New password with only upper case characters and lower case characters 
+42. New password with only upper case characters, lower case characters and Digits
+43. New password with upper case characters Repeated >4 times
+44. New password with lower case characters Repeated >4 times
+45. New password with digit Repeated >4 times
+46. New password with allowed special character Repeated >4 times 
+47. New password with digits =50% times   
+48. New password with digits >50% times
+49. New password and old password 100% match 
+50. New password and old password 95% match
+51. New password and old password 90% match
+52. New password and old password 85% match
+53. New password and old password 80% match
+54. Old Password doesn't match with System
+55. Old Password null
+56. Old Password empty
+
+## Peculiar Test Scenarios
+
+57. New password has Regex (The value must be between 0.10 and 0.90) /^0[,.]([1-8]\\d|90)$/
+58. New password has Regex (the value must be in 3 and 4, taking into account decimals.) /^(3([.,]\\d{1,2})?|4([.,]0{1,2})?)$/
+59. New password has Regex of our test condition 1 ^(?!\\d+$)([a-zA-Z0-9!@#$&*][a-zA-Z0-9!@#$&*]*)$
+60. New password has unusual character ♔
+61. New password has unicode characters ¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶
+62. New password has emoji characters - ℹ️⌛️⚠️✒️❤️🀄️🈚️ℹ️⌛️⚠️✒️❤️🀄️🈚️ℹ️⌛️⚠️✒️❤️🀄️🈚️ℹ️⌛️⚠️✒️❤️🀄️🈚️
+
+
+## Security Test Scenarios
+  
 63. SQL injection Commands as new password - Data provider used
 64. New password contains dangerous Linux commands - Data provider used
 65. New password contains cross site scripting commands - Data provider used
